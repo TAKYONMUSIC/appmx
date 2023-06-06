@@ -1,0 +1,1 @@
+jQuery(function(n){var t={init:function(){t.masks(),n(document.body).on("updated_checkout",function(){t.masks()}).trigger("updated_checkout")},masks:function(){n.each(appmax_payments_boleto_params.masks,function(t,a){n("."+t).mask(a)})}};t.init()});

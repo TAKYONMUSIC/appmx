@@ -1,0 +1,1 @@
+jQuery(function(a){var n={init:function(){n.masks(),a(document.body).on("updated_checkout",function(){n.masks()}).trigger("updated_checkout")},masks:function(){a.each(appmax_payments_credit_card_params.masks,function(n,t){a("."+n).mask(t)})}};n.init()});
